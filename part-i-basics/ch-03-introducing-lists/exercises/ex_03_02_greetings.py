@@ -1,0 +1,10 @@
+names = [ "Alice", "Bob", "Charlie", "Diana", "Eve", "Frank", "Grace", "Heidi", "Ivan" ]
+print(f"Hello, {names[0]}, nice to see you!")
+print(f"Hello, {names[1]}, nice to see you!")
+print(f"Hello, {names[2]}, nice to see you!")
+print(f"Hello, {names[3]}, nice to see you!")
+print(f"Hello, {names[4]}, nice to see you!")
+print(f"Hello, {names[5]}, nice to see you!")
+print(f"Hello, {names[6]}, nice to see you!")
+print(f"Hello, {names[7]}, nice to see you!")
+print(f"Hello, {names[8]}, nice to see you!")
