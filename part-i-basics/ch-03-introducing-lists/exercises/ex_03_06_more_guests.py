@@ -4,15 +4,49 @@ guest_list = [
     "Enrique Alegret"
 ]
 
-print(f"Hello {guest_list[0]}, would you join me for dinner this evening please?")
-print(f"Hello {guest_list[1]}, would you join me for dinner this evening please?")
-print(f"Hello {guest_list[2]}, would you join me for dinner this evening please?")
+name = guest_list[0].title()
+print(f"{name}, please come to dinner.")
 
-print(f"It appears {guest_list[0]} will be unable to join us for dinner this evening.")
-replacement_guest = "Brian Cox"
-guest_list[0] = replacement_guest
-print(f"We will be inviting {guest_list[0]} instead.")
+name = guest_list[1].title()
+print(f"{name}, please come to dinner.")
 
-print(f"I have confirmed that {guest_list[0]} will be joining us for dinner this evening!")
-print(f"I have confirmed that {guest_list[1]} will be joining us for dinner this evening!")
-print(f"I have confirmed that {guest_list[2]} will be joining us for dinner this evening!")
+name = guest_list[2].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[0].title()
+print(f"\nSorry, {name} can't make it to dinner.")
+
+del(guest_list[0])
+guest_list.insert(0, "Brian Cox")
+
+name = guest_list[0].title()
+print(f"\n{name}, please come to dinner.")
+
+name = guest_list[1].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[2].title()
+print(f"{name}, please come to dinner.")
+
+print("\nWe got a bigger table!")
+guest_list.insert(0, "Benjamin Franklin")
+guest_list.insert(2, "Richard Feynman")
+guest_list.append("Grace Hopper")
+
+name = guest_list[0].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[1].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[2].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[3].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[4].title()
+print(f"{name}, please come to dinner.")
+
+name = guest_list[5].title()
+print(f"{name}, please come to dinner.")
